@@ -1,0 +1,142 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 900;
+}
+.influencer-logo {
+  color: chocolate;
+  margin: 0px 20px;
+}
+
+.top-part {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.right-side {
+  width: 50%;
+}
+.left-side {
+  width: 50%;
+  padding-left: 5%;
+}
+.text-part {
+  width: 100%;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+
+.img-part {
+  width: 100%;
+}
+
+.text-part a {
+  text-decoration: none;
+  padding: 20px;
+  background-color: darkmagenta;
+  color: aliceblue;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.text-part h1 {
+  font-size: 40px;
+}
+
+.text-part p {
+  width: 505px;
+}
+
+.fa-solid {
+  margin-left: 10px;
+}
+
+.right-parts span {
+  margin-right: 15px;
+  font-weight: 900;
+}
+
+.text {
+  margin-bottom: 50px;
+}
+
+.right-parts span:hover {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+.slider {
+  margin-top: 400px;
+}
+
+.company {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+hr {
+  border: 1px solid saddlebrown;
+  margin: 30px auto;
+  width: 90%;
+}
+
+.img {
+  width: 300px;
+  height: 256px;
+}
+.card {
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px auto;
+  row-gap: 30px;
+}
+.title-popular {
+  margin: 4% 0%;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  height: 239px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.icon-social-side {
+  font-size: 25px;
+}
+.fa-brands {
+  margin-right: 10px;
+}
+
+.hovers:hover {
+  background-color: aquamarine;
+  color: brown;
+  border-radius: 50%;
+  padding: 10px;
+  transition: all 1s;
+}
+
+/* .fa-brands:hover{
+  background-color: aquamarine;
+  color: brown;
+  border-radius: 50%;
+  padding: 10px;
+} */
